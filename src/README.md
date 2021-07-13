@@ -11,6 +11,9 @@
 - Birim testleri vardır
 - Tek bir amacı vardır
 - Kolay değişebilir (yan etkisi olmayan)
+- Basit , Odaklı, Doğru, Tam
+
+##### 
         
     
 
