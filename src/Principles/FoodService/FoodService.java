@@ -1,5 +1,8 @@
 package Principles.FoodService;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FoodService {
 
     //eğer hem insanı hem de hayvanı listeye eklemek istersem problem olur bundan dolayı
@@ -12,4 +15,6 @@ public class FoodService {
         System.out.println(eaterAdaptor + "added to list");
         eaterAdaptor.eat();
     }
+
+
 }
