@@ -12,6 +12,7 @@ public class Conventions {
 
         /**
          * Your codes should fit xml,web service ,db naming conventions.
+         * new line
          */
 
         /**
