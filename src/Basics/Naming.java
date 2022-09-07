@@ -114,6 +114,10 @@ public class Naming {
          */
 
         /**
+         *
+         */
+
+        /**
          * Use abstract and inclusive names.
          * don't use int hour;
          * use :
