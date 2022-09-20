@@ -251,6 +251,42 @@ public class Functions {
      * of something, have it change the state of its owning object.
      */
 
+    /**
+     * Extract Try/Catch Blocks
+     * Try/catch blocks are ugly in their own right. They confuse the structure of the code and
+     * mix error processing with normal processing. So it is better to extract the bodies of the try
+     * and catch blocks out into functions of their own.
+     *
+     * public void delete(Page page) {
+     * try {
+     * deletePageAndAllReferences(page);
+     * }
+     * catch (Exception e) {
+     * logError(e);
+     * }
+     * }
+     * private void deletePageAndAllReferences(Page page) throws Exception {
+     * deletePage(page);
+     * registry.deleteReference(page.name);
+     * configKeys.deleteKey(page.name.makeKey());
+     * }
+     * private void logError(Exception e) {
+     * logger.log(e.getMessage());
+     * }
+     */
+    /**
+     * Duplication may be the root of all evil in software. Many principles and practices have
+     * been created for the purpose of controlling or eliminating it. Consider, for example, that
+     * all of Codd’s database normal forms serve to eliminate duplication in data. Consider also
+     * how object-oriented programming serves to concentrate code into base classes that would
+     * otherwise be redundant. Structured programming, Aspect Oriented Programming, Component
+     * Oriented Programming, are all, in part, strategies for eliminating duplication. It
+     * would appear that since the invention of the subroutine, innovations in software development
+     * have been an ongoing attempt to eliminate duplication from our source code.
+     */
+
+
+
 
 
 
